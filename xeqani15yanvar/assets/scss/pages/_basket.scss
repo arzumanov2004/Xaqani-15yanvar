@@ -1,0 +1,58 @@
+#POPULAR{
+    #inp{
+        width: 250px;
+        min-height: 35px;
+        padding-left: 20px;
+    }
+    #searc{
+        width: 100px;
+        min-height: 35px;
+        background-color: black;
+        color: white;
+        font-weight: 800;
+        &:hover{
+            background-color: white;
+            border: 2px solid black;
+            color: black;
+        }
+    }
+    #forumDiv{
+        width: 100%;
+        min-height: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        .myBox{
+            width: 100%;
+            min-height: 350px;
+            text-align: center;
+            margin-bottom: 20px;
+            img{
+                width: 100%;
+                height: 250px;
+                margin-bottom: 15px;
+    
+            }
+            h5{
+                margin-bottom: 20px;
+    
+            }
+            button{
+                min-height: 40px;
+                width: 100px;
+                background-color: black;
+                color: white;
+                border: none;
+                margin-bottom: 10px;
+                font-weight: 800;
+                
+                &:hover{
+                    background-color: white;
+                    color: black;
+                    border: 2px solid black;
+                }
+            }
+        }
+    }
+}

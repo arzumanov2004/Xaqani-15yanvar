@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#shopWishUs{
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    background-image: url('https://preview.colorlib.com/theme/selling/images/hero_2.jpg');
+    background-attachment: fixed;
+    .SHOP{
+        width: 100%;
+        min-height: 300px;
+        h1{
+            font-size: 90px;
+            font-weight: 800;
+            color: white;
+        }
+        p{
+            font-size: 20px;
+            color: white;
+        }
+        .btn1{
+            width: 150px;
+            margin-right: 10px;
+            min-height: 60px;
+            border: 2px solid white;
+            background-color: transparent;
+            color: white;
+            font-weight: 800;
+            margin-bottom: 10px;
+            &:hover{
+                background-color: white;
+                border: none;
+                color: black;
+            }
+        }
+        .btn2{
+            width: 220px;
+            min-height: 60px;
+            background-color: white;
+            color: black;
+            font-weight: 800;
+            border: none;
+            &:hover{
+                background-color: transparent;
+                border: 2px solid white;
+                color: white;
+            }
+        }
+    }
+}
+@media (max-width: 800px) {
+    #shopWishUs{
+        .SHOP{
+                h1{
+                    font-size: 40px;
+                }
+            
+        }
+    }
+}
+#POPULAR{
+    width: 100%;
+    min-height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .Our{
+        width: 100%;
+        min-height: 300px;
+        text-align: center;
+        margin-top: 20px;
+        padding-top: 20px;
+
+    }
+    #prodacts{
+        width: 100%;
+        min-height: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        .myBox{
+            width: 100%;
+            min-height: 350px;
+            text-align: center;
+            margin-bottom: 20px;
+            img{
+                width: 100%;
+                height: 250px;
+                margin-bottom: 15px;
+
+            }
+            h5{
+                margin-bottom: 20px;
+
+            }
+            button{
+                height: 30px;
+                background-color: black;
+                color: white;
+                border: none;
+                margin-bottom: 10px;
+                &:hover{
+                    background-color: white;
+                    color: black;
+                    border: 2px solid black;
+                }
+            }
+        }
+    }
+    .btnazza{
+        width: 100px;
+        min-height: 40px;
+        background-color: black;
+        color: white;
+        border: none;
+        margin-bottom: 10px;
+        margin-bottom: 20px;
+        &:hover{
+            background-color: white;
+            color: black;
+            border: 2px solid black;
+            
+        }
+    }
+}
+#MERCHANT{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 20px;
+
+    img{
+        width: 90%;
+        height: 500px;
+
+    }
+    button{
+        width: 130px;
+        min-height: 35px;
+        background-color: black;
+        color: white;
+        font-weight: 700;
+        &:hover{
+            background-color: white;
+            color: black;
+            border: 2px solid black;
+        }
+    }
+    p{
+        margin-left: 40px;
+    }
+}
+#Nisi{
+    width: 100%;
+    min-height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    text-align: center;
+    img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+#SERVICES{
+    width: 100%;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .Our{
+        width: 100%;
+        min-height: 200px;
+        text-align: center;
+        margin-top: 20px;
+        padding-top: 20px;
+
+    }
+    .Learin{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 20px;
+        button{
+            border: none;
+            background-color: transparent;
+            color: orangered;
+            &:hover{
+                color: rgb(93, 37, 16);
+            }
+        }
+    }
+}
+footer{
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .end{
+        width: 100%;
+        min-height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
